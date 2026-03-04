@@ -233,6 +233,7 @@ img {
   grid-template-columns: 1fr 1fr;
   gap: var(--spacing);
   align-items: start;
+  font-size: calc(var(--base-font-size)*1.1)
 }
 
 /* Reverse the column order (image on right, text on left) */
@@ -297,7 +298,7 @@ img {
 
 /* ===== About Page ===== */
 .illustrator-img {
-  max-width: 350px;
+  width:fit-content;
   margin: 0 auto;
 }
 
@@ -444,6 +445,6 @@ textarea {
   }
 
   .illustrator-img {
-    max-width: 280px;
+    width: 100%;
   }
 }
