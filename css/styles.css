@@ -115,7 +115,7 @@ img {
 }
 
 .rotate-word {
-  font-size: 0.35em;
+  font-size: 0.4em;
   transform: rotate(-90deg) translateX(-138%) translateY(80%);
   transform-origin: top left;
   white-space: nowrap;
