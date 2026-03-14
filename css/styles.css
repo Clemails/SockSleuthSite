@@ -264,7 +264,7 @@ img {
 .book-cover {
   /* box-shadow: var(--cover-shadow); */
   border-radius: var(--border-radius);
-  transform:scale(1.1);
+  transform: scale(1.1);
 }
 
 .purchase-links {
@@ -305,7 +305,7 @@ img {
 
 /* ===== About Page ===== */
 .illustrator-img {
-  width:fit-content;
+  width: fit-content;
   margin: 0 auto;
 }
 
