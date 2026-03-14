@@ -81,6 +81,7 @@ img {
 /* Center the title block within the header */
 .title-wrapper {
   text-align: center;
+  padding-right: 1.7em;
 }
 
 .title-block {
@@ -93,7 +94,7 @@ img {
   font-family: var(--heading-font);
   font-weight: 700;
   text-transform: uppercase;
-  font-size: 4rem;
+  font-size: 6rem;
   line-height: 1.2;
   margin-bottom: 0.5rem;
   color: var(--new-color);
@@ -135,7 +136,7 @@ img {
 /* Tagline (already exists – ensure it's below) */
 .tagline {
   font-family: var(--font-family);
-  font-size: 1.2rem;
+  font-size: 1.75rem;
   color: var(--primary-color);
   letter-spacing: 1px;
   font-weight: 400;
@@ -144,6 +145,7 @@ img {
   /* text-transform: uppercase; */
   border-bottom: 1px solid rgba(30, 43, 58, 0.1);
   padding-bottom: 1rem;
+  font-weight: 700;
 }
 
 /* Mobile adjustments */
@@ -215,6 +217,10 @@ img {
   color: var(--primary-color);
 }
 
+.right-writer {
+  text-align: right;
+}
+
 /* ===== Main Content ===== */
 .container {
   max-width: var(--content-max-width);
@@ -258,6 +264,7 @@ img {
 .book-cover {
   /* box-shadow: var(--cover-shadow); */
   border-radius: var(--border-radius);
+  transform:scale(1.1);
 }
 
 .purchase-links {
