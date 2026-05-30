@@ -313,6 +313,7 @@ img {
 /* ===== Reviews Page ===== */
 .reviews-list {
   list-style: none;
+  margin-top: 7rem;
 }
 
 .reviews-list li {
@@ -328,13 +329,14 @@ img {
 .review-text {
   font-style: italic;
   color: #5f4e45;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 .review-author {
   margin-top: 0.5rem;
-  font-weight: 600;
+  font-weight: 700;
   color: #3a2e28;
+  font-size: 1.2rem;
 }
 
 /* ===== Contact Page ===== */
