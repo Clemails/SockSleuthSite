@@ -449,6 +449,10 @@ textarea {
     font-size: 1.5rem;
   }
 
+  .fab {
+    margin-left: 12px;
+  }
+
   .two-col-grid,
   .reviews-grid {
     grid-template-columns: 1fr;
