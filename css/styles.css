@@ -449,7 +449,7 @@ textarea {
     font-size: 1.5rem;
   }
 
-  .fab {
+  .fab, .fa-instagram, .fa-tiktok, .fa-pinterest {
     margin-left: 12px;
   }
 
