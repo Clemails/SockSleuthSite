@@ -476,6 +476,10 @@ textarea {
   align-items: start;
 }
 
+.merch-intro {
+  margin-bottom: 1.75rem;
+}
+
 .product-card {
   display: flex;
   flex-direction: column;
