@@ -256,8 +256,15 @@ img {
 
 .reviews-grid {
   display: grid;
-  grid-template-columns: 3fr 4fr;
+  grid-template-columns: minmax(240px, 360px) 1fr;
   gap: var(--spacing);
+  align-items: start;
+}
+
+.reviews-left {
+  align-self: start;
+  position: sticky;
+  top: 3.5rem;
 }
 
 /* ===== Home Page ===== */
@@ -455,6 +462,11 @@ textarea {
   .two-col-grid,
   .reviews-grid {
     grid-template-columns: 1fr;
+  }
+
+  .reviews-left {
+    position: static;
+    top: auto;
   }
 
 
